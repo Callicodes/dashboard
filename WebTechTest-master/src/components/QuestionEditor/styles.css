@@ -130,5 +130,65 @@ body {
 
 #input1{
 display: block;
-border: 3px solid black;
+border: 3px solid #ccc;
+}
+
+h3.question {
+    float: left;
+    margin-left: 100px;
+    /* padding-bottom: 1px; */
+    color: #fff;
+    font-weight: bold;
+        margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3.Answers {
+
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* padding-bottom: 1px; */
+    color: #fff;
+    font-weight: bold;
+}
+
+input {
+    /* display: block; */
+    float: left;
+    width: 60%;
+    margin-left: 103px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input#checkbox1 {
+    /* float: left; */
+    display: block;
+    position: relative;
+    margin-left: 54%;
+    margin-bottom: -8% !important;
+}
+
+
+input#checkbox2 {
+    /* float: left; */
+    display: block;
+    position: relative;
+    margin-left: 54%;
+    margin-bottom: -8% !important;
+}
+
+p#checkboxText {
+    right: 43.5%;
+    color: #fff;
+    position: absolute;
+}
+
+p#checkboxText {
+    right: 43.5%;
+    color: #fff;
+    position: absolute;
 }
