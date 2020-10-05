@@ -9,6 +9,7 @@ import * as sportwebservice from './actions/questionwebservice';
 
 import { Question } from '../types/Question';
 
+
 export interface QuizState {
   questions: Question[]
 }
@@ -33,7 +34,7 @@ function questionReduxReducer(state = initialQuizState, action) {
         questions: [
           ...state.questions.slice(0, action.payload.index),
           ...state.questions.slice(action.payload.index + 1)
-      ],
+        ],
       };
     default:
       return state;
