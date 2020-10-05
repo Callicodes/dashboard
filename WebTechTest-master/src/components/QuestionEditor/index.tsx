@@ -2,7 +2,7 @@ import { Grid } from "@material-ui/core";
 import React from "react";
 import "./styles.css";
 import Checkbox from "./Checkbox"
-
+import Question from "./Question"
 
 
 export default function QuestionEditor() {
@@ -22,6 +22,7 @@ export default function QuestionEditor() {
       <div> <input id="input-3" type="text" placeholder="name" /></div>
 
       <div>
+        <Question />
         <Checkbox />
       </div>
 
